@@ -1,0 +1,54 @@
+{
+  "name": "@whal3s/thirdwebprovider",
+  "version": "1.1.5",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    "import": "./lib/index.esm.js",
+    "require": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "np": {
+    "publish": true,
+    "tests": false
+  },
+  "keywords": [
+    "whal3s",
+    "react",
+    "web3",
+    "UI"
+  ],
+  "author": "Jonas Esser",
+  "license": "ISC",
+  "dependencies": {
+    "@thirdweb-dev/react": "^3.14.36",
+    "browser": "^0.2.6",
+    "react": "^18.2.0",
+    "viem": "^0.3.36"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-typescript": "^7.21.5",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/react": "^18.0.27",
+    "@types/react-transition-group": "^4.4.6",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^8.2.2",
+    "rollup": "^3.26.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "@whal3s/whal3s.js": "^2.0.0-beta.0"
+  }
+}
